@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Natural Disasters Detection Using Machine  Learning</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            background-color: #f0f4f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(to right, #2c7a7b, #4fd1c5);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+        section {
+
+            padding: 40px 20px;
+            max-width: 900px;
+            margin: auto;
+            background-color: white;
+            margin-bottom: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #2c7a7b;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        footer {
+            background-color: #2c7a7b;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.8rem;
+            }
+            section {
+                padding: 20px 10px;
+            }
+
+        }
+img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Natural Disasters Detection Using Machine Learning</h1>
+        <p>Exploring the power of AI in predicting and managing disasters</p>
+    </header>
+
+    <section>
+        <h2>Introduction</h2>
+        <p>Natural disasters such as earthquakes, hurricanes, floods, and wildfires are unpredictable and can cause significant damage to property and losses of human lives. These events not only disrupt the functioning of societies but also require extensive efforts for recovery. Given their catastrophic impact, it is essential to have systems in place to predict and warn about these events, allowing people to prepare and take 
+
+the necessary precautions. The Disaster Prediction System project is an ambitious attempt to develop a software system that utilizes advanced technologies such as machine learning, artificial intelligence, and data analysis to predict natural disasters. The Disaster Prediction System project is critical because it can help reduce the impact of natural disasters by providing early warnings and assistance to people in affected areas. In addition to predicting events, the system can alert relevant authorities and individuals through various channels such as mobile notifications, email alerts, and social media updates, enabling them to take necessary precautions and evacuate to safer locations. This information can help them allocate resources more effectively, reduce response times, and save lives. Historically, many people have suffered greatly due to the lack of proper disaster prediction and management systems. The inadequacy of accurate disaster predictions has often led to delays in evacuations and insufficient mitigation measures post-disaster. During the COVID-19 pandemic, for example, efficient steps could not be followed to prevent the further spread of the virus, revealing critical gaps in management systems. This paper addresses such issues by providing a detailed review of existing procedures and techniques that can be employed during the pre-disaster and post-disaster periods to minimize losses as much as 
+
+possible</p>
+      <p>India is a vast country prone to a multitude of natural disasters. From the wrath of cyclones like Odisha in 1999 to 2004 Indian Ocean Tsunami to the recent landslides triggered by Cyclone Remal in the Northeast, the country has witnessed the destructive force of nature. According to NDMA , India faces major threats in the recent years.</p>
+<p>The field of AI and ML applications in disaster prediction has witnessed a fascinating evolution. Early research efforts focused on harnessing these technologies for earthquake prediction, with significant advancements in model development. This initial push laid the groundwork for exploring AI/ML’s potential in other areas of disaster management</p>
+    </section>
+
+    <section>
+        <h2>Machine Learning in Disaster Management</h2>
+        <p>Machine Learning (ML) has emerged as a game-changing technology capable of extracting meaningful insights from vast and complex data sources. ML techniques can improve the efficiency and effectiveness of preparedness, early warning systems, response strategies, recovery efforts, and mitigation planning.
+The use of real-time data streams, social media analytics, remote sensing, electronic health records (EHRs), and mobile data, among others, provides rich sources of information that ML models can leverage. These models can identify patterns, predict trends, optimize decision-making, and support crisis response teams in near real-time.
+</p>
+    </section>
+
+    <section>
+        <h2>Prediction Models</h2>
+<ul>
+<li><strong>CNNs</strong></li>
+	<li><p>The CNN architecture is based on convolutional layers (CL). In these layers the data is propagated and applied with tabular multiplication of n*m tabular filters also called kernels, where n equals m in most cases. This process produces different representations of the input data based on the filter applied to them. In each representation various features are uncovered which are projected in feature maps that quantify the stimuli produced by each filter of the convolutional layer . As a result of the convolution, multiple unique transformations of the input data are generated. The number and size of kernels that are used in the convolution are key for the performance of the overall network. After the convolution step, the data is passed through a pooling layer (PL) that groups the convolution results and retains only the most important ones to the network, by keeping the maximum, minimum or average of each part of the data. This entire process is repeated several times depending on the depth of the network before the data is flattened in a one-dimensional space in order to be fed in a fully 
+
+connected layer (FL) which handles the classification. The softmax layer converts the data into a probability distribution. Figure  shows a CNN architecture. It is important to mention that each CL in the network provides a level of abstraction in the feature extraction process.</p>
+<p> These models assist in identifying flood-prone areas and assessing damage extent.</p></li>
+    <li><img src="https://raw.githubusercontent.com/Nmamit-Annika/Disaster-management/refs/heads/main/Screenshot%202025-04-22%20175222.png" alt="AI Disaster Prediction"></li>
+        </ul>
+<ul>
+<li> <strong> SMV </strong></li>
+	<li><p> SVM operates by searching for optimal classification hyperplanes in both linearly separable and inseparable cases, utilizing structured risk minimization to construct the optimal hyperplane in the attribute space, ensuring the classifier achieves the global optimum and meets the expected risk at a certain upper bound . 
+Kernel functions are crucial in the effectiveness of SVM algorithms. These functions enable SVM to handle non-linearly separable data by mapping it to a higher-dimensional space, where linear separation becomes feasible 
+
+Analysis of SVM Model Results 
+In the evaluation of the SVM model for tsunami prediction, several vital metrics were employed to assess its performance. The model demonstrated an accuracy of 65.61%, precision of 70.59%, recall of 19.67%, F1-score of 30.77%, and a Receiver Operating Characteristic (ROC) Area Under the Curve (AUC) of 62.15%. These results illuminated the SVM model's strengths and limitations in its application to tsunami prediction.
+
+ 
+</p></li></ul>
+ <li><img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQsWgyhPyKrV7ymt8m3KjugbYFFPO4h_05FzrPJ39GzUnQlhxeN"></li> 
+    
+<h4><strong>Cases</strong></h4>
+            <li><p><strong>1) NASA Fire Information for Resource Management System (FIRMS): </strong>
+NASA's FIRMS system integrates machine learning with satellite data to monitor wildfire activity worldwide. ML models process MODIS and VIIRS imagery to detect heat anomalies and predict fire spread.
+Model Used: CNNs on satellite thermal bands
+Impact: Real-time alerts for fire-prone regions and improved firefighting logistics.
+</p>
+<p><strong>2) AlphaFold for Vaccine and Drug Discovery:
+</strong>DeepMind’s AlphaFold leveraged deep learning to predict 3D protein structures. During the COVID-19 pandemic, it helped researchers understand the SARS-CoV-2 virus structure, accelerating vaccine development.
+Model Used: Deep Neural Networks for structure prediction
+Impact: Reduced drug discovery timelines from years to weeks.</p>
+<p><strong>3) Cyclone Forecasting in the Philippines:</strong>
+The Philippine Atmospheric, Geophysical and Astronomical Services Administration (PAGASA) implemented ML models to predict cyclone paths. Decision trees and ensemble models combined meteorological data to improve accuracy.
+Model Used: Random Forests + SVM
+Impact: More accurate evacuation plans, saving thousands of lives during Cyclone Rolly.</P>
+
+
+
+</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Challenges</h2>
+        <p>  A major limitation in machine learning is the need for large and unbiased data sets, which can be hard to come by. Additionally it can consume lots of resources. 
+</p>
+
+<p>
+ Machine learning is prone to error as all algorithms are. Machine learning can produce a logical algorithm based on input data that ends up being inaccurate in making predictions for one reason or another. 
+</p>
+
+<p>
+
+ 
+● Data must be refined before it is fed to the machine for processing. Considering that massive sets of data are required, the extraction of certain features of the data which is often necessary can prove to be very costly. 
+       ○ An example of this that the IEEE brings forth is the use of convolutional neural networks to isolate specific areas into catastrophe zones. Specific forecast features 
+
+
+
+are required, meaning that they must be isolated from the rest of the data that is provided 
+     ○ In the use of Earth observational evidence, which gathers information on the Earth’s surface, atmosphere, and oceans, intensive parameter tuning is required, and the data needs to be regularly adjusted in order to fit the parameters that are assigned. 
+</p>
+<p>
+● Accuracy can become an issue with machine learning. For one, it is difficult to choose an unbiased parameter through which to gauge accuracy. Furthermore, several parameters have to be set in order to increase accuracy, such as specifying the number of trees in a forest or similar features, which can be very difficult and time consuming. 
+     ○ For example, in flood management, there is a complex set of parameters, which includes rainfall, pressure, and rate of flow, and these parameters are interconnected, which can obscure results. 
+</p>
+<p>
+● Applications which are dependent on machine learning, such as sensors for example, must be pre-installed, or they could be susceptible to power outages, especially in the case of a natural disaster. Aside from power outages, they could sustain damage, or transmission lines could be broken. 
+</p>
+<p>
+● Natural disasters and pandemics are inherently unpredictable in nature. Viruses are able to evolve, and natural disasters are becoming more frequent and intense primarily due to climate change. This proves to be a challenge for machine learning in order to keep up with the evolution of these threats. 
+</p>
+<ol> 
+</ol>
+    </section>
+
+    <section>
+        <h2>Conclusion</h2>
+        <p> Over the last few years, natural disasters and pandemics have become more destructive and common. With an increase in the number of pandemics and disasters, there is a strain on the emergency services, which is where ML algorithms need to function optimally and utilize available resources to the fullest. This article provided a detailed review of the use of ML for disaster and pandemic management.
+This article initially introduced a comprehensive description of ML algorithms.
+Subsequently, we have discussed different stages of disasters and
+pandemics where ML algorithms can be applied. The stages are
+predicting a disaster, identifying a pandemic, providing early warnings,
+deciding on crowd evacuation paths, reducing future
+disaster threats, social distancing, and others miscellaneous problems.
+We have also explained major issues in a number of technologies and
+how ML algorithms can resolve these problems. At last, we
+sketched various challenges, open issues, and future research
+directions.
+</p>
+    </section>
+<section id="citations">
+  <h2>Citations and References</h2>
+  <div style="background-color: #f9f9f9; border-left: 4px solid #2c7a7b; padding: 20px; border-radius: 8px;">
+    <ul style="list-style-type: none; padding-left: 0;">
+
+      <li style="margin-bottom: 15px;">
+        <strong>1.</strong> Kappi, M., & Bhovi, M. (2024). <em>Artificial intelligence and machine learning for 
+
+disaster prediction: A scientometric analysis of highly cited papers.</em> Natural Hazards, 120, 10443–10463. 
+        <a href="https://doi.org/10.1007/s11069-024-06616-y" target="_blank">DOI Link</a>
+      </li>
+
+      <li style="margin-bottom: 15px;">
+        <strong>2.</strong> Tyagi, A., & Gillala, R. (2020). <em>Challenges of applying deep learning in real-world applications.</em> In A. Tyagi & R. Gillala (Eds.), <em>Applying deep learning models to real-world problems</em> (Chapter 4). IGI Global.
+        <a href="https://doi.org/10.4018/978-1-7998-0182-5.ch004" target="_blank">DOI Link</a>
+      </li>
+
+      <li style="margin-bottom: 15px;">
+        <strong>3.</strong> Drishti IAS. (n.d.). <em>Making India disaster resilient.</em> Retrieved April 22, 2025, from 
+        <a href="https://www.drishtiias.com/daily-updates/daily-news-editorials/making-india-disaster-resilient" target="_blank">Visit</a>
+      </li>
+
+      <li style="margin-bottom: 15px;">
+        <strong>4.</strong> New Indian Express. (2024, July 22). <em>IIT-BBS’ AI model to accurately measure intensity of cyclones in NIO basin.</em> The New Indian Express. Retrieved April 22, 2025, from 
+        <a href="https://www.newindianexpress.com/states/odisha/2024/Jul/22/iit-bbs-ai-model-to-accurately-measure-intensity-of-cyclones-in-nio-basin" target="_blank">Visit</a>
+      </li>
+
+      <li style="margin-bottom: 15px;">
+        <strong>5.</strong> Aygün, Z., Kocaman, M., Aydemir, S., & Konakoğlu, B. (2024). <em>Building damage detection using deep learning architecture with satellite images: The case of the 6 February 2023 Kahramanmaraş earthquake.</em> International Journal of Pioneering Technology and Engineering, 3(2), 53–61.
+        <a href="https://doi.org/10.56158/jpte.2024.94.3.02" target="_blank">DOI Link</a>
+      </li>
+
+      <li style="margin-bottom: 15px;">
+        <strong>6.</strong> Linardos, V., Drakaki, M., Tzionas, P., & Karnavas, Y. L. (2022). <em>Machine learning in disaster management: Recent developments 
+
+in methods and applications.</em> Machine Learning and Knowledge Extraction, 4(2), 446–473.
+        <a href="https://doi.org/10.3390/make4020020" target="_blank">DOI Link</a>
+      </li>
+
+      <li style="margin-bottom: 15px;">
+        <strong>7.</strong> Chamola, V., Hassija, V., Gupta, S., Goyal, A., Guizani, M., & Sikdar, B. (2021). <em>Disaster and pandemic management using machine learning: A survey.</em> IEEE Internet of Things Journal, 8(21), 16047–16071.
+        <a href="https://doi.org/10.1109/JIOT.2020.3044966" target="_blank">DOI Link</a>
+      </li>
+
+      <li style="margin-bottom: 15px;">
+        <strong>8.</strong> Mustafa, A. M., Agha, R., Ghazalat, L., & Sha'ban, T. (2024). <em>Natural disasters detection using explainable deep learning.</em> Intelligent Systems with Applications, 23, 200430.
+        <a href="https://doi.org/10.1016/j.iswa.2024.200430" target="_blank">DOI Link</a>
+      </li>
+
+      <li style="margin-bottom: 15px;">
+        <strong>9.</strong> Akhyar, A., Zulkifley, M. A., Lee, 
+
+J., Song, T., Han, J., Cho, C., Hyun, S., Son, Y., & Hong, B.-W. (2024). <em>Deep artificial intelligence applications for natural disaster management systems: A methodological review.</em> Ecological Indicators, 163, 112067.
+        <a href="https://doi.org/10.1016/j.ecolind.2024.112067" target="_blank">DOI Link</a>
+      </li>
+
+    </ul>
+  </div>
+</section>
+
+<section>
+  <h2><strong>Other works</strong></h2>
+<ol>
+<li><a href="file:///C:/Users/Soumya/Downloads/Machine-Learning-Applications-in-Disaster-and-Pandemic-Management%20(1).pdf" target="_blank">View member report 1</a></li>
+<li><a href="file:///C:/Users/Soumya/Downloads/Natural%20disasters%20detection%20using%20Machine%20Learning1.pdf" target="_blank">View member report 2</a></li>
+<li><a href="file:///C:/Users/Soumya/Downloads/Limitations,%20Ethical%20Concerns,%20Future%20Directions%20of%20Machine%20Learning%20in%20Disaster%20and%20Pandemic%20Management%20(1).pdf" target="_blank">View member report 3</a></li>
+</ol>
+  
+</section>
+
+
+<section id="about" style="background-color: #f0f4f5; padding: 40px 20px; border-top: 2px solid #2c7a7b;">
+  <h2 style="text-align: center; color: #2c7a7b;">About This Website</h2>
+  <p style="text-align: center; max-width: 800px; margin: 20px auto; font-size: 1.1rem;">
+    This website was created as part of an academic project by the Department of Artificial Intelligence & Data Science at NMAM Institute of Technology (NMAMIT), Nitte. It presents research and insights on the use of AI and Machine Learning in natural disaster prediction and management.
+  </p>
+  <h3 style="text-align: center; color: #2c7a7b;">Prepared by:</h3>
+  <ul style="list-style-type: none; text-align: center; padding-left: 0; font-size: 1.05rem; line-height: 1.8;">
+    
+    <li> Arshith </li>
+    <li>Avani Bhandary</li>
+    <li> Vibhav Badavide</li>
+    
+  </ul>
+</section>
+
+
+    <footer>
+        <p>&copy; 2025 Natural Disaster AI Project. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
